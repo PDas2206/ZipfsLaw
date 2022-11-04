@@ -4,13 +4,9 @@ To empirically prove the Zipf’s law, the provided corpora (Jungle book, King J
 Additionally the program also provides logarithmic scale plots to depict the same phenomena to provide a clearer view of the actual frequency distribution with respect to the rank of a token for the different corpora. A problem while plotting the data using logarithmic scale is that log(0) is undefined and hence its value is automatically ignored by matplotlib. But 0 in our case is rank 1 (the index 0 of the frequency list is rank 1), and hence of mighty importance. So as not to lose the data corresponding to this value two new list has been defined. The first list has the new x-axis data values i.e. rank of the words according to frequency starting from 1. The y-axis data is just the values from the list containing the sorted word frequencies. To verify whether the law remains valid after performing stemming over the date, a separate program has been provided (zipfs_stemming.py) that determines the same. 
 ## Getting Started:
 The programs in this repo have been coded using Python 3. To run the files one has to have Python 3 or above installed in their systems. Additionally you need the following packages to be installed:
-
 nltk
-
 matplotlib
-
 string
-
 random
 ## Running the programs:
 To execute the programs from the command shell, do the following steps:
