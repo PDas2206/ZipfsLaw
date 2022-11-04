@@ -5,14 +5,13 @@ Additionally the program also provides logarithmic scale plots to depict the sam
 ## Getting Started:
 The programs in this repo have been coded using Python 3. To run the files one has to have Python 3 or above installed in their systems. Additionally you need the following packages to be installed: \
 nltk \
-matplotlib \
-string \
-random 
+matplotlib 
 ## Running the programs:
-To execute the programs from the command shell, do the following steps:
-		1. Change the directory to this folder in your system
-		2. To now execute the programs, type the following after the prompt appears:
-			python <filename>.py
-		(where <filename> is any of the below stated ones)
-		3. Some of the programs are interactive in nature, so input from user is expected, the nature of which is clearly explained to the user
-
+To execute the programs from the command shell, do the following steps: \
+		1. Change the directory to this folder in your system. \
+		2. To now execute the programs, type the following after the prompt appears: \
+			python <filename>.py \
+		(where <filename> is any of the below stated ones) \
+For zipfs_stemming.py to perform stemming, we have used the PorterStemmer method in nltk. This has been imported using the following command: \
+				from nltk.stem.porter import PorterStemmer
+		
